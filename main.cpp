@@ -10,8 +10,6 @@ void print_array(const double *p, const int size) {
     printf("\n");
 }
 
-
-
 int main() {
     const double data_in[] = {5,8,12,11,9,8,7,10,11,13};
     const int input_length = sizeof(data_in) / sizeof(double);
