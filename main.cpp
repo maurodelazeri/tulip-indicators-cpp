@@ -34,10 +34,8 @@ int main() {
     int error = ti_sma(input_length, all_inputs, options, all_outputs);
     assert(error == TI_OKAY);
 
-
     printf("The output data is: ");
     print_array(data_out, output_length);
-
 
     return 0;
 }
