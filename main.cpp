@@ -11,13 +11,13 @@ void print_array(const double *p, const int size) {
 }
 
 int main() {
-    const double data_in[] = {5,8,12,11,9,8,7,10,11,13};
+    const double data_in[] = {81.59	,81.06,82.87,83.00,83.61,83.15,82.84,83.99,84.55,84.36,85.53,86.54,86.89,87.77,87.29};
     const int input_length = sizeof(data_in) / sizeof(double);
 
     printf("We have %d bars of input data.\n", input_length);
     print_array(data_in, input_length);
 
-    const double options[] = {3};
+    const double options[] = {5};
     printf("Our option array is: ");
     print_array(options, sizeof(options) / sizeof(double));
 
